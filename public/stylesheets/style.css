@@ -1,0 +1,185 @@
+body {
+    background-color: rgb(250, 251, 255);
+}
+
+h2 {
+    margin-top: 22px;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #3e0523;
+    display: grid;
+    line-height: 0.2;
+}
+.lead2 {
+    font-size: 30px;
+}
+
+.details {
+    font-size: 20px;
+    color: rgb(128, 128, 128)
+}
+select.form-control:not([size]):not([multiple]) {
+    height: 50px;
+}
+h1 {
+    text-transform: capitalize;
+    font-size: 60px;
+
+}
+.formulaire {
+
+    display: flex;
+
+}
+a {
+    color: #3e0523;
+}
+.dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0rem;
+    padding-left: 0;
+
+}
+.btn-warning {
+    color: #ffffff;
+    background-color: #e91e62;
+    border-color: #e91e62;
+}
+.btn-warning:hover {
+    color: #ffffff;
+    background-color: #3e0523;
+    border-color: #e91e62;
+}
+
+.btn-outline-dark:hover {
+    color: #fff;
+    background-color: #e91e62;
+    border-color: #e91e62;
+}
+.title-trip {
+    color: #e91e62;
+}
+.text-muted {
+    color: #ffffff!important;
+}
+.card-footer {
+   background-color: #e91e62;
+}
+.bg-login {
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+.logout {
+    margin: 15px 15px 15px 15px;
+    padding-bottom: 8px;
+    padding-top: 10px;
+}
+
+.navbar {
+    padding: 0rem 1rem;
+    
+}
+h5 {
+  margin-bottom: 0px;
+  color: #485879;
+}
+.logo {
+
+  background-color: #ffffff;
+
+}
+.jumbotron {
+    padding: 4rem 2rem;
+    width: 100%;
+
+    text-align: center;
+    align-items: center;
+    background-image: url("../images/bg_admin.jpg");
+    color: #fff;
+    border-radius: 0%;
+    background-size: cover;
+}
+.desc {
+text-transform: capitalize;
+}
+.dropdown-divider {
+    height: 3px;
+    margin: 1.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #e9ecef;
+}
+.form-group {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    outline: 0;
+}
+
+.form-control {
+    border: 1px solid #303a5929;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+
+.list-group-item:first-child {
+    background-image: url("/images/bg.svg");
+    background-size: 20%;
+    background-repeat:  no-repeat;
+}
+.list-group {
+    margin-bottom: 15px;
+} 
+.icone {
+    width: auto;
+    height: 30px;
+}
+.card:hover {
+    box-shadow: 0px 0px 15px 4px rgb(207, 207, 207);
+    border: 1px solid #c2c3c7;
+}
+.list-group-item:hover {
+    border-color: rgb(230, 230, 230);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 15px 0px rgb(238, 237, 237);
+}
+.meteo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.offset-1 {
+    margin-left: 12.333333%;
+}
+input {
+    height: 50px;
+    display: flex;
+    width: 100%;
+    outline: 0;
+}
+button{
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.card-deck .card {
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.log {
+    border: 0px solid;
+    padding-top: 20vh;
+}
+
+.list-group-item{
+    height: 100px;
+
+}
+
+#MapsWorld {
+ max-height: 100%;
+}
+

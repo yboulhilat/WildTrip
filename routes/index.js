@@ -31,7 +31,7 @@ router.get('/trip', function (req, res, next) {
   tripModel.find({ _id: req.query.id },
       function (err, trip) { 
         console.log(req.query.id);
-        res.render('trip', { trips: trip, user: req.session.user });
+        res.render('trip', {trips: trip, user: req.session.user });
       });
 });
 ////////////* Comptes avec les trips *////////////
